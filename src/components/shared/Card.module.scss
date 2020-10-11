@@ -7,20 +7,20 @@
 
   &__img {
     width: 100%;
-    height: auto;
+    height: 360px;
+    max-height: 360px;
     overflow: hidden;
     border-radius: 3px;
 
-    .shadow {
-      padding: 5rem;
-      height: inherit;
-      width: 100%;
+    @include respond(tab-port) {
+      height: auto;
     }
 
     .img {
       filter: drop-shadow(0px 6px 8px rgba(0,0,0,0.75));
       object-fit: cover;
       width: 100%;
+      padding: 5rem;
       transition: all 0.4s;
 
       &:hover {
@@ -44,6 +44,11 @@
     h2 {
       font-size: 32px;
       font-weight: bold;
+      transition: all 0.2s;
+
+      &:hover {
+        font-weight: 500;
+      }
     }
   }
 

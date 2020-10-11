@@ -9,12 +9,11 @@ export const headData = {
 
 // NAVBAR DATA
 export const navData = {
-  logo: 'CT',
   items: [
     {
       id: nanoid(),
       name: 'Resume',
-      path: '/resume',
+      path: 'https://drive.google.com/file/d/1JDSmXMsVfRpXkPOaiK6KQ0vMN1ANKNYv/view?usp=sharing',
     },
   ],
 };
@@ -84,30 +83,40 @@ export const workData = [
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project-filler.jpg',
-    title: '',
-    paragraph: '',
-    url: '',
+    img: 'referrals.png',
+    title: 'Referrals.fyi',
+    paragraph: 'Team of 3; Creating a platform to democratize the technical interview process for software engineering jobs.',
+    url: 'https://dev.referral.fyi/',
+    type: 'Work in Progress',
     repo: '',
-    backgroundColor: '',
+    backgroundColor: '#D2EDF7',
+  },
+  {
+    id: nanoid(),
+    img: 'Net-Zero.png',
+    title: 'Net Zero',
+    paragraph: 'Team of 8; Desktop-only site to showcase a vision of technology in the future',
+    url: 'https://net-zero.surge.sh/#',
+    repo: '',
+    backgroundColor: '#D2EDF7',
   },
   {
     id: nanoid(),
     img: 'project-filler.jpg',
     title: 'Foodfest live',
-    paragraph: '',
+    paragraph: 'Team of 12; Developed the first version of their website. Original built with GatsbyJS. It has been then switched to Wix for company reasons.',
     url: 'https://foodfestlive.com',
     repo: '',
-    backgroundColor: '',
+    backgroundColor: '#D2EDF7',
   },
   {
     id: nanoid(),
     img: 'project-filler.jpg',
     title: 'Audio Visualizer',
-    paragraph: '',
-    url: '',
+    paragraph: 'Utilizing Web Audio API to visualize and manipulate soundwaves',
+    url: 'https://people.rit.edu/cxt6655/330/projects/1/',
     repo: 'https://people.rit.edu/cxt6655/330/projects/1/',
-    backgroundColor: '',
+    backgroundColor: '#D2EDF7',
   },
 ];
 

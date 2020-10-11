@@ -1,13 +1,12 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
-import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import { LOGO } from '../../images';
 
 const NavBar = () => {
   const { navData } = useContext(PortfolioContext);
-  const { logo, items } = navData;
+  const { items } = navData;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -31,9 +30,9 @@ const NavBar = () => {
           </Navbar.Brand>
           <Nav className="mr-auto">
             {items.map((link) => (
-              <Link key={link.id} to={link.path}>
+              <a key={link.name} href={link.path} target="_blank" rel="noopener noreferrer">
                 {link.name}
-              </Link>
+              </a>
             ))}
           </Nav>
         </Fade>

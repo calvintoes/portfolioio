@@ -17,3 +17,8 @@ export { default as QRONUS } from './qronus.png';
 export { default as IBM1 } from './ibm1.png';
 export { default as IBM2 } from './ibm2.png';
 export { default as INSPIRAVE } from './inspirave.png';
+
+// Project Images
+export { default as NETZERO } from './Net-Zero.png';
+export { default as AUDIOVIZ } from './audio-visualizer.png';
+export { default as REFERRALS } from './referrals.png';
