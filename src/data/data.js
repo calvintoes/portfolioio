@@ -89,7 +89,6 @@ export const projectsData = [
     url: 'https://dev.referral.fyi/',
     type: 'Work in Progress',
     repo: '',
-    backgroundColor: '#D2EDF7',
   },
   {
     id: nanoid(),
@@ -98,7 +97,6 @@ export const projectsData = [
     paragraph: 'Team of 8; Desktop-only site to showcase a vision of technology in the future',
     url: 'https://net-zero.surge.sh/#',
     repo: '',
-    backgroundColor: '#D2EDF7',
   },
   {
     id: nanoid(),
@@ -107,7 +105,6 @@ export const projectsData = [
     paragraph: 'Team of 12; Developed the first version of their website. Original built with GatsbyJS. It has been then switched to Wix for company reasons.',
     url: 'https://foodfestlive.com',
     repo: '',
-    backgroundColor: '#D2EDF7',
   },
   {
     id: nanoid(),
@@ -116,7 +113,6 @@ export const projectsData = [
     paragraph: 'Utilizing Web Audio API to visualize and manipulate soundwaves',
     url: 'https://people.rit.edu/cxt6655/330/projects/1/',
     repo: 'https://people.rit.edu/cxt6655/330/projects/1/',
-    backgroundColor: '#D2EDF7',
   },
 ];
 

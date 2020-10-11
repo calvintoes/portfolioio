@@ -7,14 +7,14 @@ const Card = ({ image, alt, title, type, date, paragraph, url, backgroundColor }
   return (
     <div className={styles.card}>
       <Container>
-        <div className={styles.card__img} style={{ backgroundColor }}>
+        <div className={styles.card__img} style={{ backgroundColor: backgroundColor || '#396597' }}>
           <a href={url} target="_blank" rel="noreferrer">
             <img src={image} alt={alt} className={styles.img} />
           </a>
         </div>
         <div className={styles.text}>
           <a href={url} target="_blank" rel="noreferrer">
-            <h2 className="">{title}</h2>
+            <h2 className="hvr-underline-from-center">{title}</h2>
           </a>
           <p>{type}</p>
           <p>{date}</p>
