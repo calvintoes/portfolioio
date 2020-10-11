@@ -9,15 +9,7 @@ import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
 
-import {
-  navData,
-  heroData,
-  aboutData,
-  workData,
-  projectsData,
-  contactData,
-  footerData,
-} from '../data/data';
+import { navData, heroData, aboutData, workData, projectsData, footerData } from '../data/data';
 
 const data = {
   navData,
@@ -25,7 +17,6 @@ const data = {
   aboutData,
   workData,
   projectsData,
-  contactData,
   footerData,
 };
 
