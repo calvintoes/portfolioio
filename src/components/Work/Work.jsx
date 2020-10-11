@@ -30,7 +30,7 @@ const Work = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={400} distance="30px">
           <Row>
             {workData.map((work, i) => {
-              const images = [QRONUS, IBM1, IBM2, INSPIRAVE];
+              const images = [QRONUS, IBM2, IBM1, INSPIRAVE];
 
               return (
                 <Col md={6} sm={12} key={work.id}>

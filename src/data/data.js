@@ -53,7 +53,7 @@ export const workData = [
     title: 'IBM',
     type: 'Internship',
     date: 'Summer 2020',
-    paragraph: `Watson Discovery is a ML driven tool to understand and parse large quantities of documents. I developed a core feature in the application that was redesigned. Here I learned more about accessibility design.`,
+    paragraph: `Watson Discovery is a ML driven tool to understand and parse large quantities of documents. I implemented a redesign of a core feature in the application. Here I learned more about accessibility design.`,
     url: 'https://www.ibm.com/cloud/watson-discovery',
     backgroundColor: '#4F4F4F',
   },
@@ -89,6 +89,7 @@ export const projectsData = [
     url: 'https://dev.referral.fyi/',
     type: 'Work in Progress',
     repo: '',
+    backgroundColor: '#3CE0C6',
   },
   {
     id: nanoid(),
@@ -97,6 +98,7 @@ export const projectsData = [
     paragraph: 'Team of 8; Desktop-only site to showcase a vision of technology in the future',
     url: 'https://net-zero.surge.sh/#',
     repo: '',
+    backgroundColor: '#FBDDD0',
   },
   {
     id: nanoid(),
@@ -105,6 +107,7 @@ export const projectsData = [
     paragraph: 'Team of 12; Developed the first version of their website. Original built with GatsbyJS. It has been then switched to Wix for company reasons.',
     url: 'https://foodfestlive.com',
     repo: '',
+    backgroundColor: '#D2EDF7',
   },
   {
     id: nanoid(),
@@ -113,15 +116,9 @@ export const projectsData = [
     paragraph: 'Utilizing Web Audio API to visualize and manipulate soundwaves',
     url: 'https://people.rit.edu/cxt6655/330/projects/1/',
     repo: 'https://people.rit.edu/cxt6655/330/projects/1/',
+    backgroundColor: '#4F4F4F',
   },
 ];
-
-// CONTACT DATA
-export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
-};
 
 // FOOTER DATA
 export const footerData = {

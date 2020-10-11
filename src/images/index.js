@@ -22,3 +22,5 @@ export { default as INSPIRAVE } from './inspirave.png';
 export { default as NETZERO } from './Net-Zero.png';
 export { default as AUDIOVIZ } from './audio-visualizer.png';
 export { default as REFERRALS } from './referrals.png';
+
+export { default as QUOTE } from './left-quote.svg';

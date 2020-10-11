@@ -8,7 +8,7 @@ const Social = () => {
   return (
     <section id="instagram">
       <Container>
-        <Fade left duration={1000} delay={500} distance="30px">
+        <Fade left duration={1000} distance="30px">
           <Row className="align-items-center">
             <Col md={4} sm={12}>
               <div className="text">

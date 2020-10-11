@@ -20,6 +20,41 @@
 
   .quote {
     text-align: center;
-    margin: 10rem auto;
+    margin: 15rem auto 12rem auto;
+    position: relative;
+
+    .left-quote, .right-quote {
+      position: absolute;
+      font-size: 250px;
+      color: $gold-text;
+      opacity: 0.05;
+      z-index: -1;
+
+      @include respond(tab-port) {
+        font-size: 100px;
+      }
+    }
+
+    .left-quote {
+      top: -100px;
+      left: -200px;
+      @include respond(tab-port) {
+        top: -50px;
+        left: 0;
+      }
+    }
+
+    .right-quote {
+      top: 0;
+      right: -200px;
+      @include respond(tab-port) {
+        top: 20px;
+        right: 0;
+      }
+    }
+
+    h3 {
+    font-size: 24px;
+    }
   }
 }

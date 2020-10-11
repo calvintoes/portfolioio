@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
-import Title from '../Title/Title';
+import { QUOTE } from '../../images';
 import AboutImg from '../Image/AboutImg';
 
 const About = () => {
@@ -48,9 +48,11 @@ const About = () => {
       <Container>
         <Row>
           <div className="quote">
+            <i className="fa fa-quote-left left-quote" />
             <h3>
               <i>Create the opportunities that you're looking for.</i>
             </h3>
+            <i className="fa fa-quote-right right-quote" />
           </div>
         </Row>
       </Container>

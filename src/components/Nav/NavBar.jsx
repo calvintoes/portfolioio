@@ -22,13 +22,13 @@ const NavBar = () => {
   }, []);
 
   return (
-    <Navbar collapseOnSelect expand="md" id="navbar">
+    <Navbar expand="md" id="navbar">
       <Container fluid>
         <Fade top={isDesktop} duration={1000} delay={500} distance="30px">
           <Navbar.Brand href="/">
             <img src={LOGO} alt="logo" height={50} />
           </Navbar.Brand>
-          <Nav className="mr-auto">
+          <Nav>
             {items.map((link) => (
               <a key={link.name} href={link.path} target="_blank" rel="noopener noreferrer">
                 {link.name}

@@ -1,15 +1,10 @@
 #navbar {
   background: $white;
+  padding-top: 0.5rem;
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  h3 {
-    font-size: 48px;
-    font-style: italic;
-
   }
 
   a {
