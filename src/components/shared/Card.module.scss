@@ -1,0 +1,51 @@
+@import '../../style/abstracts/mixins';
+@import '../../style/abstracts/variables';
+
+.card {
+  border: none;
+  margin-bottom: 8rem;
+
+  &__img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 3px;
+
+    .shadow {
+      padding: 5rem;
+      height: inherit;
+      width: 100%;
+    }
+
+    .img {
+      filter: drop-shadow(0px 6px 8px rgba(0,0,0,0.75));
+      object-fit: cover;
+      width: 100%;
+      transition: all 0.4s;
+
+      &:hover {
+        transform: scale(1.02,1.02);
+        filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.5));
+      }
+
+      @include respond(tab-port) {
+        padding: 3rem;
+      }
+    }
+  }
+
+  .text {
+    margin: 1.5rem 0;
+
+    a {
+      color: $black;
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
+
+
+}

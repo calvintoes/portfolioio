@@ -1,0 +1,143 @@
+import { nanoid } from 'nanoid';
+// Head Data
+
+export const headData = {
+  title: '', // e.g: 'Name | Developer'
+  lang: '', // e.g: en, es, fr, jp
+  description: '', // e.g: Welcome to my website
+};
+
+// NAVBAR DATA
+export const navData = {
+  logo: 'CT',
+  items: [
+    {
+      id: nanoid(),
+      name: 'Resume',
+      path: '/resume',
+    },
+  ],
+};
+
+// HERO DATA
+export const heroData = {
+  title: 'Hello',
+  name: `I'm Calvin`,
+  subtitle: 'Front End Engineer',
+  cta: '',
+};
+
+// ABOUT
+export const aboutData = {
+  img: 'portrait.jpg',
+  paragraphOne: `I’m a 22 year old recent graduate from Rochester Institute of Technology with a B.S. in New Media Interactive Development (NMID) and a minor in Digital Business.`,
+  paragraphTwo: `The NMID program is a mix of design and programming, where I studied UI/UX design and Front End Development.`,
+  paragraphThree: `As I’ve grown as a developer and learned from senior and lead developers from both enterprise and start-ups, I figured out that my mission is to use code to help people.`,
+  paragraphFour: `With this realization, I’ve taken the opportunity to give back by creating unique experiences one website, one web application, at a time.`,
+};
+
+// WORK EXPERIENCE
+export const workData = [
+  {
+    id: nanoid(),
+    img: 'qronus.png',
+    title: 'Q-ronus',
+    type: 'Contract',
+    date: 'Sept - Oct 2020',
+    paragraph: `Qronus is digitizing the way students queue. I redesigned the entire web application from the ground up, designing for different screen sizes and use cases.  I learned more about CSS modules and reinforced my React knowledge, in addition to UI/UX and visual design.`,
+    url: 'https://q-ronus.com',
+    backgroundColor: '#F2A83D',
+  },
+  {
+    id: nanoid(),
+    img: 'ibm1.png',
+    title: 'IBM',
+    type: 'Internship',
+    date: 'Summer 2020',
+    paragraph: `Watson Discovery is a ML driven tool to understand and parse large quantities of documents. I developed a core feature in the application that was redesigned. Here I learned more about accessibility design.`,
+    url: 'https://www.ibm.com/cloud/watson-discovery',
+    backgroundColor: '#4F4F4F',
+  },
+  {
+    id: nanoid(),
+    img: 'ibm2.png',
+    title: 'IBM',
+    type: 'Internship',
+    date: 'Summer 2019',
+    paragraph: `As part of their Digital Technical Engagement team, I was responsible for developing new React components to perfect the experience an IBMer has in registering meetings with potential clients. I learned React + Redux and solidified RESTful API concepts.`,
+    url: 'https://ibm.com/demos',
+    backgroundColor: '#1746CD',
+  },
+  {
+    id: nanoid(),
+    img: 'inspirave.png',
+    title: 'Inspirave',
+    type: 'Internship',
+    date: 'Summer 2018',
+    paragraph: `Dedicated to helping people save money for large purchases, Inspirave pushed my comfort zone by developing their UI/UX. I learned better communications skills and developed an eye for better UX practices.`,
+    url: 'https://inspirave.com/',
+    backgroundColor: '#D2EDF7',
+  },
+];
+
+// PROJECTS DATA
+export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'project-filler.jpg',
+    title: '',
+    paragraph: '',
+    url: '',
+    repo: '',
+    backgroundColor: '',
+  },
+  {
+    id: nanoid(),
+    img: 'project-filler.jpg',
+    title: 'Foodfest live',
+    paragraph: '',
+    url: 'https://foodfestlive.com',
+    repo: '',
+    backgroundColor: '',
+  },
+  {
+    id: nanoid(),
+    img: 'project-filler.jpg',
+    title: 'Audio Visualizer',
+    paragraph: '',
+    url: '',
+    repo: 'https://people.rit.edu/cxt6655/330/projects/1/',
+    backgroundColor: '',
+  },
+];
+
+// CONTACT DATA
+export const contactData = {
+  cta: '',
+  btn: '',
+  email: '',
+};
+
+// FOOTER DATA
+export const footerData = {
+  networks: [
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/calvintoes',
+      img: '',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://instagram.com/calvintoes',
+      img: '',
+    },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://linkedin.com/in/calvintoes',
+      img: '',
+    },
+  ],
+};

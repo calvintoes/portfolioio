@@ -1,0 +1,19 @@
+#navbar {
+  background: $white;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 48px;
+    font-style: italic;
+
+  }
+
+  a {
+    margin: 0 1rem;
+  }
+
+}

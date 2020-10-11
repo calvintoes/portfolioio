@@ -1,0 +1,68 @@
+.footer {
+  background-color: $sky-blue;
+  color: $black;
+  padding: 4.8rem 0 1.5rem 0;
+
+  h2 {
+    font-size: 72px;
+  }
+
+  &__subtitle {
+    max-width: 455px;
+  }
+
+  &__body {
+    margin: 10rem 0 4rem 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .logo {
+      position: absolute;
+      top: -50px;
+      left: -50px;
+      height: 60px;
+      width: auto;
+
+      @include respond(phone) {
+        left: 0;
+      }
+    }
+
+    .social-links {
+      margin: 1rem 0;
+
+      a {
+        color: $black;
+        font-size: 24px;
+      }
+    }
+  }
+
+  @include respond(phone) {
+    border: 0px;
+  }
+
+  .last-line {
+    text-align: center;
+    font-size: 12px;
+    color: #909090;
+  }
+}
+
+.back-to-top {
+  text-align: center;
+
+  i {
+    color: $white;
+    margin: 1rem 0 $default-font-size;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}

@@ -1,0 +1,55 @@
+#instagram {
+  background-color: white;
+
+  h3 {
+    font-size: 36px;
+  }
+
+  a {
+    color: $black;
+  }
+
+  .ig-photo {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    transition: all 0.7s;
+
+    // @include respond(phone) {
+    //   width: 100%;
+    //   height: auto;
+    // }
+
+    &:hover {
+      transform: scale(1.1,1.1);
+    }
+  }
+
+  .image-wrapper {
+    position: relative;
+    height: 300px;
+    width: 130px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 1rem;
+
+    @include respond(phone) {
+      width: 50%;
+      margin: 0.05rem auto;
+    }
+
+    &:first-child {
+      @include respond(phone) {
+        width: 100%;
+
+        img {
+          transform: rotateZ(90deg);
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+
+}
+

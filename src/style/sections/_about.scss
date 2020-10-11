@@ -1,0 +1,25 @@
+#about {
+  .img-wrapper {
+    max-height: 400px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+
+  img {
+    top: -100px !important;
+
+    @include respond(tab-port) {
+      top: 0 !important;
+    }
+  }
+
+  p {
+    line-height: 2.6rem;
+  }
+
+  .quote {
+    text-align: center;
+    margin: 10rem auto;
+  }
+}
