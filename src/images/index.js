@@ -1,4 +1,4 @@
-export { default as FAVICON } from './favicon.ico';
+export { default as FAVICON } from './Logo.png';
 export { default as HEADHSOT } from './portrait.jpg';
 export { default as PROJECT } from './project-filler.jpg';
 export { default as LOGO } from './logo.svg';

@@ -27,9 +27,9 @@ const Footer = () => {
                 <a href="mailto:cto3685@gmail.com" target="_blank" rel="noreferrer">
                   cto3685@gmail.com
                 </a>{' '}
-                or{' '}
+                or find a spot in my calendar{' '}
                 <a href="https://calendly.com/calvinto" target="_blank" rel="noreferrer">
-                  Schedule here
+                  here
                 </a>
               </p>
             </div>

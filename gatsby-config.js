@@ -7,13 +7,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `GatsbyJS`,
+        short_name: `Portfolio`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#02aab0`,
+        background_color: `#f8f8f8`,
+        theme_color: `#396597`,
         display: `standalone`,
-        icon: 'src/images/favicon.ico',
+        icon: 'src/images/Logo.png',
       },
     },
     `gatsby-plugin-offline`,

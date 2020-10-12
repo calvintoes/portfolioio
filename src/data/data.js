@@ -109,15 +109,6 @@ export const projectsData = [
     repo: '',
     backgroundColor: '#D2EDF7',
   },
-  {
-    id: nanoid(),
-    img: 'project-filler.jpg',
-    title: 'Audio Visualizer',
-    paragraph: 'Utilizing Web Audio API to visualize and manipulate soundwaves',
-    url: 'https://people.rit.edu/cxt6655/330/projects/1/',
-    repo: 'https://people.rit.edu/cxt6655/330/projects/1/',
-    backgroundColor: '#4F4F4F',
-  },
 ];
 
 // FOOTER DATA
