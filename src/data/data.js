@@ -102,7 +102,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project-filler.jpg',
+    img: 'foodfestlive.png',
     title: 'Foodfest live',
     paragraph: 'Team of 12; Developed the first version of their website. Original built with GatsbyJS. It has been then switched to Wix for company reasons.',
     url: 'https://foodfestlive.com',
