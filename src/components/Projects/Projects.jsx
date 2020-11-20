@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Card from '../shared/Card';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import { NETZERO, FOODFEST, AUDIOVIZ, REFERRALS } from '../../images';
+import { HELLLO, NETZERO, FOODFEST, REFERRALS } from '../../images';
 
 const Projects = () => {
   const { projectsData } = useContext(PortfolioContext);
@@ -31,7 +31,7 @@ const Projects = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={400} distance="30px">
           <Row>
             {projectsData.map((project, i) => {
-              const images = [REFERRALS, NETZERO, FOODFEST, AUDIOVIZ];
+              const images = [HELLLO, REFERRALS, NETZERO, FOODFEST];
               return (
                 <Col md={6} key={project.id}>
                   <Card image={images[i]} {...project} lastItem={i === images.length - 1} />

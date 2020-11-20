@@ -84,6 +84,16 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'referrals.png',
+    title: 'helllo.dev',
+    paragraph: 'Solo project; Creating a web application to bring awareness to the different branches of programming for high school juniors and seniors who know they want to get into the industry.',
+    url: '#',
+    type: 'Work in Progress',
+    repo: '',
+    backgroundColor: '#FFD80E',
+  },
+  {
+    id: nanoid(),
+    img: 'referrals.png',
     title: 'Referrals.fyi',
     paragraph: 'Team of 3; Creating a platform to democratize the technical interview process for software engineering jobs.',
     url: 'https://dev.referral.fyi/',
