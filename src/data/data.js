@@ -83,19 +83,21 @@ export const workData = [
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'referrals.png',
+    img: 'helllo.png',
     title: 'helllo.dev',
-    paragraph: 'Solo project; Creating a web application to bring awareness to the different branches of programming for high school juniors and seniors who know they want to get into the industry.',
+    paragraph:
+      'Solo project; Creating a web application to bring awareness to the different branches of programming for high school juniors and seniors who know they want to get into the industry.',
     url: '#',
     type: 'Work in Progress',
     repo: '',
-    backgroundColor: '#FFD80E',
+    backgroundColor: '#468FF9',
   },
   {
     id: nanoid(),
     img: 'referrals.png',
     title: 'Referrals.fyi',
-    paragraph: 'Team of 3; Creating a platform to democratize the technical interview process for software engineering jobs.',
+    paragraph:
+      'Team of 3; Creating a platform to democratize the technical interview process for software engineering jobs.',
     url: 'https://dev.referral.fyi/',
     type: 'Work in Progress',
     repo: '',
@@ -114,7 +116,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'foodfestlive.png',
     title: 'Foodfest live',
-    paragraph: 'Team of 12; Developed the first version of their website. Original built with GatsbyJS. It has been then switched to Wix for company reasons.',
+    paragraph:
+      'Team of 12; Developed the first version of their website. Original built with GatsbyJS. It has been then switched to Wix for company reasons.',
     url: 'https://foodfestlive.com',
     repo: '',
     backgroundColor: '#D2EDF7',
