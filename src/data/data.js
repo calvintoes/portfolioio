@@ -46,6 +46,7 @@ export const workData = [
     paragraph: `Qronus is digitizing the way students queue. I redesigned the entire web application from the ground up, designing for different screen sizes and use cases.  I learned more about CSS modules and reinforced my React knowledge, in addition to UI/UX and visual design.`,
     url: 'https://q-ronus.com',
     backgroundColor: '#F2A83D',
+    alt: 'Qronus website',
   },
   {
     id: nanoid(),
@@ -56,6 +57,7 @@ export const workData = [
     paragraph: `Watson Discovery is a ML driven tool to understand and parse large quantities of documents. I implemented a redesign of a core feature in the application. Here I learned more about accessibility design.`,
     url: 'https://www.ibm.com/cloud/watson-discovery',
     backgroundColor: '#4F4F4F',
+    alt: 'IBM Watson website',
   },
   {
     id: nanoid(),
@@ -66,6 +68,7 @@ export const workData = [
     paragraph: `As part of their Digital Technical Engagement team, I was responsible for developing new React components to perfect the experience an IBMer has in registering meetings with potential clients. I learned React + Redux and solidified RESTful API concepts.`,
     url: 'https://ibm.com/demos',
     backgroundColor: '#1746CD',
+    alt: 'IBM Demos website',
   },
   {
     id: nanoid(),
@@ -76,6 +79,7 @@ export const workData = [
     paragraph: `Dedicated to helping people save money for large purchases, Inspirave pushed my comfort zone by developing their UI/UX. I learned better communications skills and developed an eye for better UX practices.`,
     url: 'https://inspirave.com/',
     backgroundColor: '#D2EDF7',
+    alt: 'Inpirave website',
   },
 ];
 
@@ -87,10 +91,11 @@ export const projectsData = [
     title: 'helllo.dev',
     paragraph:
       'Solo project; Creating a web application to bring awareness to the different branches of programming for high school juniors and seniors who know they want to get into the industry.',
-    url: '#',
+    url: '',
     type: 'Work in Progress',
     repo: '',
     backgroundColor: '#468FF9',
+    alt: 'Helllo.dev project snapshot',
   },
   {
     id: nanoid(),
@@ -102,6 +107,7 @@ export const projectsData = [
     type: 'Work in Progress',
     repo: '',
     backgroundColor: '#3CE0C6',
+    alt: 'Referrals.fyi project snapshot',
   },
   {
     id: nanoid(),
@@ -111,6 +117,7 @@ export const projectsData = [
     url: 'https://net-zero.surge.sh/#',
     repo: '',
     backgroundColor: '#FBDDD0',
+    alt: 'Net-zero project snapshot',
   },
   {
     id: nanoid(),
@@ -121,6 +128,7 @@ export const projectsData = [
     url: 'https://foodfestlive.com',
     repo: '',
     backgroundColor: '#D2EDF7',
+    alt: 'Foodfest Live project snapshot',
   },
 ];
 
