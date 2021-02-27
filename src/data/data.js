@@ -13,7 +13,7 @@ export const navData = {
     {
       id: nanoid(),
       name: 'Resume',
-      path: 'https://drive.google.com/file/d/1fcRop2wLDZfMnTOk_9mJGfOaRQ9hoGAL/view?usp=sharing',
+      path: 'https://drive.google.com/file/d/16pGpzjMNYnExrKNc5gTzptM9d_o6G8bI/view?usp=sharing',
     },
   ],
 };
